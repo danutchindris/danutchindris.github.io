@@ -1,29 +1,17 @@
 ---
 layout: page
-title: About
+title: Despre
 permalink: /about/
 ---
 
-[Reverie](https://github.com/amitmerchant1990/reverie) is a Jekyll theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now) with some additional features and personal touches which I've implemented to suit my needs for [my blog](https://www.amitmerchant.com).
+Sunt un programator curios și interesat să mă dezvolt.
+Scriu despre subiectele cele mai interesante care mă preocupă
+și încerc să explic în termeni simpli concepte ce țin de
+*software development*.
 
-This is a plug-and-play Jekyll theme which you can use on GitHub Pages without even setting up a local environment.
-
-## Features
-
-- Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
-- Fully responsive and mobile optimized base theme
-- Sass/Coffeescript support using Jekyll 2.0
-- Free hosting on your GitHub Pages user site
-- All the SEO goodies comes in-built
-- Markdown blogging
-- Syntax highlighting using Pygments
-    - [Dracula syntax theme](https://draculatheme.com/) included
-- Disqus commenting
-- Google Analytics integration
-- Fuzzy search across blog posts
-- Pagination of posts works out-of-the-box.
-- Categorize posts out-of-the box
-- RSS Feed
-- In-built sitemap
-
-Learn more about it [here](https://github.com/amitmerchant1990/reverie) on how to get started.
+Sunt dezvoltator software cu experiență în tehnologii
+Java, cu accent pe *backend*. Momentan, sunt interesat în special
+de [programare funcțională](https://elixir-lang.org/),
+[*Category Theory*](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/),
+[arhitecturi *reactive*](https://www.reactivemanifesto.org)
+și [baze de date distribuite](http://cassandra.apache.org/).
