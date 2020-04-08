@@ -2,7 +2,7 @@
 layout: post
 title: Expression vs Statement
 categories: [Java,Programare,Cod,Expression,Statement]
-excerpt: Avem tendința să programăm pe fugă, să terminăm un *task* rapid, pentru că suntem contra timp și noua versiune trebuie livrată în curând. E foarte ușor să facem compromisuri de *design* și să uităm că până și cele mai mici decizii pot influența rezultatul muncii noastre.
+excerpt: Avem tendința să programăm pe fugă, să terminăm un task rapid, pentru că suntem contra timp și noua versiune trebuie livrată în curând. E foarte ușor să facem compromisuri de design și să uităm că până și cele mai mici decizii pot influența rezultatul muncii noastre.
 ---
 
 Avem tendința să programăm pe fugă, să terminăm un *task* rapid, pentru că suntem contra timp
