@@ -7,7 +7,9 @@ excerpt: În designul orientat pe obiecte, există situații în care avem nevoi
 
 În designul orientat pe obiecte, există situații în care avem nevoie de o implementare specializată a unei clase, despre care știm că nu va fi folosită în niciun alt loc. În astfel de ocazii, avem la îndemână clasele anonime.
 
-## Cazul #1: Subclasă anonimă a unei clase specificate
+## Situația 1
+
+### Subclasă anonimă a unei clase specificate
 
 Să presupunem că avem o clasă `Food` definită astfel:
 
@@ -45,7 +47,9 @@ instanța clasei anonime, creată *in-place*, are o relație de tipul *is-a* cu 
 Scopul unei astfel de clase anonime este de a suprascrie (*override*) una sau mai multe dintre metodele superclasei.
 În cazul nostru, clasa anonimă suprascrie metoda `serve()`.
 
-## Cazul #2: Clasă ce implementează în mod anonim o interfață specificată
+## Situația 2
+
+### Clasă ce implementează în mod anonim o interfață specificată
 
 Similar primului caz, putem crea o clasă anonimă care implementează o interfață *in-place*.
 De exemplu, având interfața:
@@ -86,7 +90,9 @@ O observație ar fi că o clasă anonimă definită astfel nu poate implementa d
 Acest lucru e restrictiv, pentru că o clasă definită în mod obișnuit - `class MyClass {...}` - poate implementa mai multe
 interfețe. 
 
-## Cazul #3: Clasă internă anonimă, definită pe locul unui argument
+## Situația 3
+
+### Clasă internă anonimă, definită pe locul unui argument
 
 De multe ori nu avem nevoie de o variabilă care să referențieze o instanță de clasă anonimă. Așa că definim clasa
 și o instanțiem pe loc, acolo unde vrem s-o transmitem ca parametru unei metode.
