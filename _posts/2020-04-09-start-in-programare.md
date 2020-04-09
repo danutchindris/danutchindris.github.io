@@ -100,7 +100,8 @@ habar n-aveam ce-i ăla *algoritm*.
 O să studiem bazele programării folosind [*Elixir*](https://elixir-lang.org), un limbaj
 modern, folosit cu succes în industrie. Am ales Elixir din două motive:
 
-- există deja astfel de cursuri, cărți, video-uri etc. folosind limbaje precum Python sau Java
+- există deja astfel de cursuri, cărți, video-uri etc. folosind limbaje precum Python sau Java,
+deci ar prinde bine ceva diferit
 - Elixir este un limbaj care promovează un alt stil de programare față de cele menționate,
 un stil despre care mulți specialiști spun că va fi preponderent în viitor
 
