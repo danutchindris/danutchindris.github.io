@@ -51,7 +51,10 @@ programe.
 Dacă e să luăm în calcul și situația mondială actuală, în care o mare parte din populația
 lumii stă acasă și își desfășoară multe activități *online*, vom vedea cum multe afaceri se
 vor muta în mediul virtual.
-{% include pullquote.html quote="Fără îndoială, lumea funcționează pe software." %}
+{% include pullquote.html quote="Fără îndoială, lumea funcționează pe software." %} Așa spunea
+în 2010 Bob Muglia, președintele pe domeniul de servere și instrumente la Microsoft, la un
+eveniment în Las Vegas. "Uită-te în jur. Uită-te la fiecare lucru, la toate dispozitivele
+pe care le folosim, la sistemele cu care interacționăm."
 Deja facem *banking* pe Internet, cumpărăm pe Internet și socializăm tot acolo. Mai mult,
 o dată cu impunerea de distanțare socială, mulți dintre noi muncim de la distanță,
 cu ajutorul Internetului.
@@ -60,8 +63,7 @@ cu ajutorul Internetului.
 și programatori.
 
 >Așa cum am spus, software-ul mișcă lumea, ceea ce înseamnă că programatorii sunt motorul
->din spatele lucrului ce dă energie lumii.
-- Bob Muglia, cu funcție executivă la Microsoft
+>din spatele lucrului ce dă energie lumii. - Bob Muglia, cu funcție executivă la Microsoft
 
 Cred că e un moment bun să începem să învățăm programare. Și cred că nu ar trebui să învățăm
 programare doar pentru oportunitățile de muncă, ci și pentru faptul că putem aplica principiile
