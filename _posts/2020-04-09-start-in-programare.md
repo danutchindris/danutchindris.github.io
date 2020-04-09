@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Start în programare
-categories: [Programare,Inspirație,Carieră]
+categories: [Programare,Inspirație,Carieră,Elixir]
 excerpt: Urmăresc cu interes evoluția implicării sistemelor AI în piața muncii și văd cum lucrurile se schimbă. Se vorbește din ce în ce mai mult despre faptul că în viitorul apropiat unele joburi vor fi automatizate. Unii oameni vor fi nevoiți să se orienteze spre alte domenii.
 ---
 
