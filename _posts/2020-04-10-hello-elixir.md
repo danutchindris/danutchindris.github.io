@@ -72,7 +72,7 @@ Accesează website-ul următor: [http://try-elixir.herokuapp.com](http://try-eli
 
 Vedem că se deschide o pagină ce are în mijloc un chenar de culoare crem.
 
-![Pagină interactivă Elixir](images/lesson-001/interactive-elixir.png "Pagină interactivă Elixir")
+![Pagină interactivă Elixir](/images/lesson-001/interactive-elixir.png "Pagină interactivă Elixir")
 
 În acest dreptunghi putem scrie comenzi Elixir. Pentru a face acest lucru, dăm click în
 interiorul chenarului. În dreapta textului care spune `iex(1)>` vedem că apare un mic dreptunghi
@@ -94,7 +94,7 @@ După ce am apăsat *Enter*, programul nostru a fost rulat, iar calculatorul a e
 care am scris-o. Rezultatul a fost afisat cu un rând mai jos, lucru pe care-l putem vedea în
 captura de ecran:
 
-![Hello Elixir!](images/lesson-001/hello-elixir.png "Hello Elixir!")
+![Hello Elixir!](/images/lesson-001/hello-elixir.png "Hello Elixir!")
 
 __Felicitări! Tocmai ai scris primul tău program pe calculator!__
 
