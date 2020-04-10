@@ -7,16 +7,17 @@ excerpt: Elixir este un limbaj de programare cu ajutorul căruia putem crea tot 
 
 Elixir este un limbaj de programare cu ajutorul căruia putem crea tot felul de programe. Putem
 scrie de la jocuri sau aplicații de birou, până la aplicații *web* - pe care, de multe ori,
-le numim *site*-uri - și sisteme de mesagerie, cum ar fi __Whatsapp__. De fapt, aplicația
-__Whatsapp__ e construită pe aceeași fundație pe care rulează toate aplicațiile construite
+le numim *site*-uri - și sisteme de mesagerie, cum ar fi *Whatsapp*. De fapt, aplicația
+*Whatsapp* e construită pe aceeași fundație pe care rulează toate aplicațiile construite
 cu Elixir.
 
 ## Despre limbajele de programare
 
-Dar ce este un limbaj de programare? Atunci când doi oameni din țări diferite se întâlnesc,
-ei trebuie să găsească o limbă pe care o știu amândoi, pentru a putea comunica.
-Să spunem că un român se întâlnește cu un olandez și vor să povestească. Cel mai probabil
-amândoi știu engleză, așa că vor discuta în engleză.
+Dar ce este un limbaj de programare?
+
+Atunci când doi oameni din țări diferite se întâlnesc, ei trebuie să găsească o limbă pe care
+o știu amândoi, pentru a putea comunica. Să spunem că un român se întâlnește cu un olandez și
+vor să povestească. Cel mai probabil amândoi știu engleză, așa că vor discuta în engleză.
 
 Atunci când noi vrem să "conversăm" cu un calculator, trebuie să găsim o limbă comună, pe care
 s-o înțelegem amândoi. Un limbaj de programare e o astfel de limbă comună.
@@ -45,8 +46,8 @@ pregătească prăjitura descrisă în rețetă.
 
 La fel ca o rețetă culinară, un program se scrie și se citește, rând cu rând, de la stânga
 la dreapta și de sus în jos. Programatorii se referă la textul rețetei - pardon, programului! -
-cu termenul de __cod__, pe care o să-l întâlnim foarte des. În orice discuție cu un programator
-va folosi cel puțin o dată cuvântul "cod".
+cu termenul de __cod__, pe care o să-l întâlnim foarte des. În orice discuție cu un programator,
+acesta va folosi cel puțin o dată cuvântul "cod".
 
 De asemenea, un rând de cod se mai numește "linie de cod" sau simplu, "linie". Deci dacă îți
 spune cineva să citești codul de la linia 7, nu te speria, vrea să spună să citești textul
@@ -76,7 +77,7 @@ Vedem că se deschide o pagină ce are în mijloc un chenar de culoare crem.
 
 În acest dreptunghi putem scrie comenzi Elixir. Pentru a face acest lucru, dăm click în
 interiorul chenarului. În dreapta textului care spune `iex(1)>` vedem că apare un mic dreptunghi
-colorat în gri. Acesta este *cursorul* care ne indică unde urmează să scriem următoarea
+colorat în gri. Acesta este *cursorul*, care ne indică unde urmează să scriem următoarea
 comandă.
 
 Acum putem scrie programul nostru, "Hello Elixir!". Primul nostru program va conține un singur
@@ -86,12 +87,12 @@ rând:
 "Hello Elixir!"
 ```
 
-O dată ce am scris comanda de mai sus, apăsăm tasta *Enter*. De fiecare dată cand vrem să rulăm o
+O dată ce am scris comanda de mai sus, apăsăm tasta *Enter*. De fiecare dată când vrem să rulăm o
 comandă, apăsăm *Enter*. Vom vedea mai târziu că o comandă se poate întinde pe mai multe rânduri.
 Dar deocamdată să ne concentrăm pe comenzi scurte și simple.
 
 După ce am apăsat *Enter*, programul nostru a fost rulat, iar calculatorul a executat comanda pe
-care am scris-o. Rezultatul a fost afisat cu un rând mai jos, lucru pe care-l putem vedea în
+care am scris-o. Rezultatul a fost afișat cu un rând mai jos, lucru pe care-l putem vedea în
 captura de ecran:
 
 ![Hello Elixir!](/images/lesson-001/hello-elixir.png "Hello Elixir!")
@@ -117,14 +118,11 @@ rezultat. O valoare poate fi, de exemplu, un *string* sau un număr.
 
 Când am spus instrucțiune, m-am referit la faptul că poate fi o instrucțiune simplă,
 cum este cea pe care tocmai am scris-o, sau complexă, formată din mai multe instrucțiuni simple
-puse laolaltă. În orice caz, simplă sau complicată, instrucțiunea, adică expresia, este redusă,
-în final, la o valoare.
+puse laolaltă. În orice caz, simplă sau complicată, expresia este redusă, în final, la o valoare.
 
-Un lucru pe care trebuie să-l reținem este că 
-
-{% include pullquote.html quote="în Elixir fiecare instrucțiune este o expresie" %}, adică
-
-fiecare instrucțiune, atunci când este evaluată, dă ca rezultat o valoare. Acest lucru este foarte
+Un lucru pe care trebuie să-l reținem este faptul că 
+{% include pullquote.html quote="în Elixir fiecare instrucțiune este o expresie." %}
+Fiecare instrucțiune, atunci când este evaluată, dă ca rezultat o valoare. Acest lucru este foarte
 important și vom vedea că ne ajută foarte mult.
 
 În cazul expresiei noastre "Hello Elixir!", care este un *string*, valoarea ei este chiar *string*-ul
@@ -134,8 +132,8 @@ decât atât, ca să o reducem mai mult.
 Vom vedea în lecția următoare un alt exemplu de expresie, ceva mai complicat, și vom începe să
 învățăm cum să evaluăm expresiile, pentru a le calcula valoarea.
 
-Deci, atunci când am scris expresia "Hello Elixir!" și am apăsat *Enter*, Elixir a evaluat
-- sau, am putea spune, calculat - valoarea ei și a afișat-o pe ecran, cu un rând mai jos.
+Deci, atunci când am scris expresia "Hello Elixir!" și am apăsat *Enter*, Elixir a evaluat - sau,
+am putea spune, calculat - valoarea ei și a afișat-o pe ecran, cu un rând mai jos.
 
 ## Concluzie
 
