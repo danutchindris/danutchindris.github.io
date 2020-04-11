@@ -1,7 +1,7 @@
 ---
 layout: post
-title: #001 Hello Elixir
-categories: [Programare,Start,Elixir]
+title: Hello Elixir
+categories: [Programare,Start,Elixir,String]
 excerpt: Elixir este un limbaj de programare cu ajutorul căruia putem crea tot felul de programe. Putem scrie de la jocuri sau aplicații de birou, până la website-uri și sisteme de mesagerie, cum ar fi Whatsapp.
 ---
 
