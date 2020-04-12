@@ -2,10 +2,10 @@
 layout: post
 title: Operații cu numere
 categories: [Programare,Start,Elixir,Numere,Tip,Date]
-excerpt: Unul dintre primele lucruri pe care le-a realizat omenirea cu ajutorul calculatoarelor electronice a fost calculul aritmetic rapid. Mașinile sunt nemaipomenit de bune la "măcinat" numere.
+excerpt: Unul dintre primele lucruri pe care le-a realizat omenirea cu ajutorul calculatoarelor electronice a fost calculul aritmetic. Mașinile sunt nemaipomenit de bune la "măcinat" numere.
 ---
 
-Unul dintre primele lucruri pe care le-a realizat omenirea cu ajutorul calculatoarelor electronice a fost calculul aritmetic. Mașinile sunt nemaipomenit de bune la "măcinat" numere. De exemplu, e mult mai rapid și sigur să facem totalul prețurilor produselor din coșul de cumpărături cu ajutorul unei aplicații de pe *smartphone*. E de așteptat să lăsăm majoritatea calculelor matematice pe seama instrumentului pe care l-am creat pentru așa ceva (chiar dacă acest lucru vine cu un preț :wink:). Mai ales, știind că avem în permanență în buzunar un dispozitiv cu putere de procesare de 100 000 de ori mai mare decât calculatorul pe care-l avea nava spațială *Apollo 11*.
+Unul dintre primele lucruri pe care le-a realizat omenirea cu ajutorul calculatoarelor electronice a fost calculul aritmetic. Mașinile sunt nemaipomenit de bune la "măcinat" numere. De exemplu, e mult mai rapid și sigur să facem totalul prețurilor produselor din coșul de cumpărături cu ajutorul unei aplicații de pe *smartphone*. E de așteptat să lăsăm majoritatea calculelor matematice pe seama instrumentului pe care l-am creat pentru așa ceva (chiar dacă acest lucru vine cu un preț). Mai ales, știind că avem în permanență în buzunar un dispozitiv cu putere de procesare de 100 000 de ori mai mare decât calculatorul pe care-l avea nava spațială *Apollo 11*.
 
 Acum, să continuăm să ne familiarizăm cu sintaxa limbajului de programare, adăugând operatorii aritmetici la trusa noastră de unelte.
 
@@ -87,6 +87,6 @@ Sunt rezultatele așa cum te-ai așteptat? Ce concluzii ai putut trage în legă
 
 Vom discuta aceste exemple în detaliu în postarea următoare.
 
-Programatorilor Elixir le place să se identifice cu titlul de *alchimiști*. Încet încet devenim și noi mici alchimiști. :sake:
+Programatorilor Elixir le place să se identifice cu titlul de *alchimiști*. Încet încet devenim și noi mici alchimiști.
 
 Până data viitoare, *Happy brewing!*
