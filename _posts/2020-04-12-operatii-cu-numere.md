@@ -75,18 +75,27 @@ Acum, e timpul să exersăm câteva expresii aritmetice în consola `iex`:
 
 100 + 1 + 10
 
+10 / 2
 
+20 / 2 / 10
 
+20 / 0
 
+0 / 4
 
+5 / 2
+
+-3 / 4
+
+7 + 3 + -2 * 5 + 10 / 5
 ```
 
 Fiecare expresie din lista de mai sus e de sine stătătoare. Te încurajez să le execuți pe fiecare în parte și să observi rezultatele. Te rog să observi și modul în care le-am scris în această listă; e intenționat.
 
 Sunt rezultatele așa cum te-ai așteptat? Ce concluzii ai putut trage în legătură cu operatorii aritmetici?
 
-Vom discuta aceste exemple în detaliu în postarea următoare.
+Vom discuta aceste exemple, în detaliu, în postarea următoare.
 
-Programatorilor Elixir le place să se identifice cu titlul de *alchimiști*. Încet încet devenim și noi mici alchimiști.
+Programatorilor Elixir le place să se identifice cu titlul de *alchimiști*. Încet, încet, devenim și noi mici alchimiști.
 
 Până data viitoare, *Happy brewing!*
