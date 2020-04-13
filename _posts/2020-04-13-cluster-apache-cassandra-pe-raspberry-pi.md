@@ -99,9 +99,9 @@ După toți pașii ăștia și câteva reboot-uri, a mers. Nu știu exact dacă 
 
 Apropo, pentru toată povestea asta cu asignarea IP-ului static pentru C.H.I.P., am folosit resursele următoare:
 
-	- [raspberrypi.stackexchange.com](https://raspberrypi.stackexchange.com/questions/39785/differences-between-etc-dhcpcd-conf-and-etc-network-interfaces)
-	- [unix.stackexchange.com](https://unix.stackexchange.com/questions/319488/network-configuration-for-static-ip-and-automatic-wifi-connection)
-	- [linuxconfig.org](https://linuxconfig.org/how-to-setup-a-static-ip-address-on-debian-linux)
+- [raspberrypi.stackexchange.com](https://raspberrypi.stackexchange.com/questions/39785/differences-between-etc-dhcpcd-conf-and-etc-network-interfaces)
+- [unix.stackexchange.com](https://unix.stackexchange.com/questions/319488/network-configuration-for-static-ip-and-automatic-wifi-connection)
+- [linuxconfig.org](https://linuxconfig.org/how-to-setup-a-static-ip-address-on-debian-linux)
 
 ## Pachete software necesare
 
