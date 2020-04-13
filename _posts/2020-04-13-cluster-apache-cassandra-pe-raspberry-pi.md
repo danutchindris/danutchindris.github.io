@@ -13,7 +13,7 @@ La începutul cursului, am primit imaginea unei mașini virtuale Ubuntu, care co
 
 Parcurgând exercițiile, devenea din ce în ce mai frustrant să lucrez cu acea mașină virtuală. O instalasem pe un VirtualBox și am observat că programul ăsta e un mare consumator de energie. Procesorul se încinge, ventilatoarele laptopului turează la maximum, iar bateria se duce mai repede decât ar trebui. În plus, nu simțeam că trăiesc cu adevărat experiența faptului că lucrez cu baze de date distribuite, de vreme ce toate cele trei noduri erau instalate pe aceeași mașină.
 
-## Despre dispozitivele mici și Apache Cassandra
+## Raspberry PI și Apache Cassandra
 
 Așa mi-a venit ideea să folosesc trei dispozitive de tip SoC (*System on Chip*) pentru a-mi construi un cluster Apache Cassandra. Aveam deja două plăcuțe [*Raspberry PI*](https://www.raspberrypi.org) și o plăcuță [*C.H.I.P.*](http://www.chip-community.org/index.php/Main_Page) și m-am gândit că e timpul să le dau o utilitate.
 
@@ -21,7 +21,7 @@ Așa mi-a venit ideea să folosesc trei dispozitive de tip SoC (*System on Chip*
 
 Toate resursele pe care le-am găsit pentru combinația Raspberry PI + Apache Cassandra prezentau configurații complexe, cu pași mulți și greu de urmărit. Totuși, mi-am zis, sigur n-are cum să fie atât de complicat. Așa că am renunțat să mai caut articole specifice pentru *setup*-ul ăsta și m-am concentrat pe articole ce descriu cum se instalează Apache Cassandra pe mai multe mașini, pentru a forma un cluster.
 
-Totuși, dintre resursele pe care le-am găsisem, mi s-a părut plină de inspirație prezentarea lui [Andy Cobley](https://www.youtube.com/watch?v=OW-OFv-Pq2Y), lector la Universitatea din Dundee. Chiar dacă e o prezentare veche, mi-a plăcut să urmăresc experiența lui cu Raspberry PI și Apache Cassandra.
+Totuși, dintre resursele pe care le găsisem, mi s-a părut plină de inspirație prezentarea lui [Andy Cobley](https://www.youtube.com/watch?v=OW-OFv-Pq2Y), lector la Universitatea din Dundee. Chiar dacă e o prezentare veche, mi-a plăcut să urmăresc experiența lui cu Raspberry PI și Apache Cassandra.
 
 Una dintre ideile ce mi-au atras atenția în prezentarea lui Andy a fost aceea că Raspberry PI e un [mini-computer](https://opensource.com/resources/raspberry-pi) construit inițial în [scop educativ](https://www.youtube.com/watch?v=IWif9eBJCIA). Așa că nu ar trebui să mă aștept să construiesc cu astfel de computere un cluster gata să fie pus în producție. Ar trebui să îl folosesc pentru a învăța să modelez și să operez baze de date distribuite, chiar dacă nu obțin performanță. Lucrul acesta mi-a dat încredere.
 
@@ -88,11 +88,10 @@ dns-nameservers 8.8.8.8 8.8.4.4
 
 Nici de data asta nu a mers. Dar apoi mi-am amintit că, mai demult, configurasem accesul la WiFi cu ajutorul unui tool numit [nmtui](http://www.chip-community.org/index.php/Turn_it_on#Configuring_WiFi).
 
-Așa că am incercat să dezactivez acel *Network Manager*:
+Așa că am încercat să dezactivez acel *Network Manager*:
 
 ```
 sudo systemctl stop NetworkManager.service
-
 sudo systemctl disable NetworkManager.service
 ```
 
@@ -100,12 +99,9 @@ După toți pașii ăștia și câteva reboot-uri, a mers. Nu știu exact dacă 
 
 Apropo, pentru toată povestea asta cu asignarea IP-ului static pentru C.H.I.P., am folosit resursele următoare:
 
-	- https://raspberrypi.stackexchange.com/questions/39785/differences-between-etc-dhcpcd-conf-and-etc-network-interfaces
-	- https://unix.stackexchange.com/questions/319488/network-configuration-for-static-ip-and-automatic-wifi-connection
-	- https://linuxconfig.org/how-to-setup-a-static-ip-address-on-debian-linux
-		- stop and disable NetworkManager
-			- configured using the nmtui command
-			- configuration profiles stored at /etc/NetworkManager/system-connections/
+	- [raspberrypi.stackexchange.com](https://raspberrypi.stackexchange.com/questions/39785/differences-between-etc-dhcpcd-conf-and-etc-network-interfaces)
+	- [unix.stackexchange.com](https://unix.stackexchange.com/questions/319488/network-configuration-for-static-ip-and-automatic-wifi-connection)
+	- [linuxconfig.org](https://linuxconfig.org/how-to-setup-a-static-ip-address-on-debian-linux)
 
 ## Pachete software necesare
 
