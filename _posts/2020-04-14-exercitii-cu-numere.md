@@ -92,4 +92,4 @@ Cam atât deocamdată despre operatorii aritmetici de bază.
 
 Acum e timpul să instalăm Elixir pe laptopul sau PC-ul propriu și să trecem la următorul nivel în programare.
 
-Până atunci, te încurajez să experimentezi cu diverse expresii aritmetice de genul celei de mai sus. Cu puțin exercițiu, îți va fi din ce în ce mai ușor să evaluezi expresii complexe. În plus, vei putea să identifici "dintr-o privire" expresiile mai simple din care se compune o expresie complexă și ordinea evaluării acestora.
+Dar până la următoarea postare, te încurajez să experimentezi cu diverse expresii aritmetice de genul celei de mai sus. Cu puțin exercițiu, îți va fi din ce în ce mai ușor să evaluezi expresii complexe. În plus, vei putea să identifici "dintr-o privire" expresiile mai simple din care se compune o expresie complexă și ordinea evaluării acestora.
