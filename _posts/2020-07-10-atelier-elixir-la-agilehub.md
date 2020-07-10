@@ -11,8 +11,8 @@ Atelierul a fost o introducere *very slow paced* a limbajului de programare Elix
 
 Timpul pe care ni l-am alocat s-a scurs repede și mai aveam multe lucruri de discutat, dar am lăsat material destul pentru o continuare a *workshop*-ului, când vom aborda aplicații web cu *framework*-ul Phoenix.
 
-Înregistrarea atelierului e disponibilă pe YouTube: https://www.youtube.com/watch?v=n0jtJrL1jps
+Înregistrarea atelierului e disponibilă pe YouTube
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n0jtJrL1jps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Codul sursă pe care am lucrat în timpul *workshop*-ului și *slideshow*-ul sunt disponibile pe GitHub: https://github.com/danutchindris/elixir-workshop
+iar codul sursă pe care am lucrat în timpul *workshop*-ului și *slideshow*-ul sunt gata de descărcat în *repo*-ul GitHub: [https://github.com/danutchindris/elixir-workshop](https://github.com/danutchindris/elixir-workshop)
