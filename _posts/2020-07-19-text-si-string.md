@@ -111,4 +111,18 @@ Valoarea *string*-ului vid este foarte importantă atunci când vrem, de exemplu
 
 ## Interpolare 
 
+Uneori, avem un text în interiorul căruia vrem să "lipim" dinamic valori. De exemplu, avem un mesaj pe care vrem să-l dăm utilizatorului în fiecare zi: "Astăzi, un euro valorează X lei". Acea valoare X ar trebui să fie dinamică și să reflecte rata de schimb a zilei. Dacă afișăm mesajul astăzi, X are o anumită valoare, dar mâine va avea, cel mai probabil, altă valoare.
+
+Rezolvăm problema inserând o expresie Elixir în interiorul șirului de caractere. Elixir va ști că e o expresie ce trebuie evaluată fiindcă o scriem între caracterele `#{}`.
+
+Pentru exemplul nostru, să presupunem că avem o variabilă `exchange_rate`, a cărei valoare vrem să o inserăm dinamic în *string*:
+
+```elixir
+exchange_rate = 4.84
+"Astăzi, un euro valorează #{exchange_rate} lei"
+```
+
+Expresia pe care am inserat-o în text e simplă, dar putem scrie expresii oricât de complicate. Expresia este evaluată imediat, iar valoarea rezultată este "lipită" în poziția corespunzătoare din text.
+
+## *String*-uri pe mai multe rânduri
 
