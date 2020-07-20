@@ -124,5 +124,64 @@ exchange_rate = 4.84
 
 Expresia pe care am inserat-o în text e simplă, dar putem scrie expresii oricât de complicate. Expresia este evaluată imediat, iar valoarea rezultată este "lipită" în poziția corespunzătoare din text.
 
-## *String*-uri pe mai multe rânduri
+În urma evaluării, rezultatul va fi *string*-ul "Astăzi, un euro valorează 4.84 lei".
 
+În termeni tehnici, acest mecanism de inserare a valorii unei expresii într-un șir de caractere se numește __interpolare__.
+
+## *String*-uri multi-linie
+
+Până acum am folosit doar *string*-uri care se scriu pe un singur rând, dar nu suntem limitați la asta. Putem avea șiruri de caractere dispuse pe mai multe linii, astfel:
+
+```elixir
+"
+Acesta este
+un
+string
+pe mai multe rânduri.
+"
+```
+
+## *Sigils*
+
+Un alt *feature* interesant pe care ni-l pune limbajul la dispoziție e ceva ce se numește *sigil*. Explicăm cel mai ușor ce înseamnă, printr-un exemplu. Să presupunem că vrem să creăm un *string*, ca e un citat dintr-o carte. Deci avem nevoie să reprezentăm și caracterele "ghilimele" în șirul de caractere.
+
+În mod normal, caracterul `"` reprezintă începutul sau sfârșitul unui *string* și nu e așa ușor să ne dăm seama cum am putea să avem și ghilimele în text. Un *sigil* ne face viața mai ușoară. Îl definim cu ajutorul construcției `~s()`. Revenind la exemplul nostru, putem avea ceva de genul:
+
+```elixir
+~s("By working faithfully eight hours a day, you may eventually get to be a boss and work twelve hours a day." -Robert Frost, American poet)
+```
+
+*String*-ul rezultat e următorul:
+
+```elixir
+"\"By working faithfully eight hours a day, you may eventually get to be a boss and work twelve hours a day.\" -Robert Frost, American poet"
+```
+
+Deci rezultatul evaluării unui *sigil* e un *string*, după ce a trecut anumite caractere speciale (cum ar fi ghilimelele) printr-un proces de transformare, care se numește *escaping*.
+
+Vedem în șirul de caractere obținut din *sigil*-ul pe care l-am scris, că ghilimelele sunt prefixate de caracterul *backslash* (`\`).
+
+Cu ajutorul caracterului *backslash*, facem *escape* caracterelor care au, în mod normal, o semnificație aparte și nu pot fi folosite direct în *string*-uri. Folosim *escaping* cu *backslash* și în cazul caracterelor non-tipăribile, cum ar fi *new line*. Reprezentăm într-un *string* caracterul *new line* prin construcția `\n`.
+
+Un exemplu, pe care l-am scris în IEx:
+
+```elixir
+iex(7)> my_text = "Împărțim linia\nîn două."
+"Împărțim linia\nîn două."
+iex(8)> IO.puts(my_text)
+Împărțim linia
+în două.
+:ok
+```
+
+Am creat variabila `my_text`, ce a fost legată de *string*-ul "Împărțim linia\nîn două.". Atunci când afișăm pe ecran conținutul șirului de caractere cu funcția `IO.puts/2`, vedem că apare pe două rânduri, fiindcă ăsta e rolul lui *new line*, să despartă reprezentarea pe ecran, adăugând un rând nou.
+
+## Modulul `String`
+
+Tot ce avem nevoie să știm despre *string*-uri găsim în documentația Elixir, în special uitându-ne la modulul `String`: [https://hexdocs.pm/elixir/String.html](https://hexdocs.pm/elixir/String.html).
+
+Pe lângă informații generale despre lucrul cu șiruri de caractere, găsim în documentație că modulul `String` ne pune la dispoziție multe funcții utile, cum ar fi `length/1`, care ne dă lungimea unui *string* sau `upcase/2`, ce transformă în majuscule toate literele din text.
+
+## Concluzii
+
+*String*-urile sunt date cu care lucrăm în majoritatea programelor pe care le scriem, indiferent de limbajul de programare pe care îl alegem. Ele ne permit să prezentăm utilizatorului informații în forma pe care o dorim. Dacă învățăm să folosim *String*-urile bine, vom fi programatori fericiți pe întreaga durată a carierei noastre. :) 
